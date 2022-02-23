@@ -3,7 +3,7 @@ import { Album } from '.';
 export interface AlbumListState {
   loading: boolean;
   albums?: Album[];
-  error?: undefined;
+  error?: string;
 }
 
 export enum AlbumListActionTypes {
@@ -23,7 +23,7 @@ export interface GetAlbumsSuccessAction {
 
 export interface GetAlbumsFailureAction {
   type: AlbumListActionTypes.ALBUM_LIST_FAILURE;
-  payload: any;
+  payload: string;
 }
 
 export type AlbumListAction =
