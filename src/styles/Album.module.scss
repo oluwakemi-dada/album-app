@@ -1,0 +1,24 @@
+.container {
+  object-fit: contain;
+}
+
+.cover {
+  position: relative;
+}
+
+.streamingService {
+  width: 1.5rem;
+  position: absolute;
+  bottom: 1.2rem;
+  right: 0.5rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  margin-top: 0.7rem;
+}
+
+.artist {
+  font-size: 1.4rem;
+  color: #7a7a7a;
+}

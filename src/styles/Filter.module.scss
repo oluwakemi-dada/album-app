@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // width: 20rem;
+  border: 1.5px solid #fff;
+  border-radius: 3rem;
+  padding: 0.1rem 1rem;
+  margin-bottom: -0.5rem;
+
+  > *:first-child {
+    font-size: 1.3rem;
+  }
+
+  select {
+    background: inherit;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+    background: #000;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.3rem 1rem;
+    border-top-right-radius: 3.2rem;
+    border-bottom-right-radius: 3.2rem;
+    width: 12rem;
+
+    &::placeholder {
+      font-family: 'Oxygen', sans-serif;
+      color: #fff;
+    }
+
+    option {
+      background: inherit;
+      color: #fff;
+    }
+  }
+}

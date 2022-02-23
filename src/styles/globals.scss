@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  background-color: #1a191d;
+  color: #fff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.8rem;
+
+  @media (max-width: 700px) {
+    font-size: 2.5rem;
+  }
+
+  @media (max-width: 450px) {
+    font-size: 2.3rem;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 150rem;
+  margin: 0 auto;
+
+  @media (max-width: 1600px) {
+    max-width: 125rem;
+  }
+
+  @media (max-width: 1400px) {
+    max-width: 110rem;
+  }
+
+  @media (max-width: 1200px) {
+    max-width: 92rem;
+  }
+
+  @media (max-width: 1000px) {
+    max-width: 73rem;
+  }
+
+  @media (max-width: 800px) {
+    max-width: 63rem;
+  }
+
+  @media (max-width: 700px) {
+    max-width: 100%;
+    padding: 0 3rem;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 5rem;
+  }
+
+  @media (max-width: 550px) {
+    padding: 0 4rem;
+  }
+
+  @media (max-width: 400px) {
+    padding: 0 3rem;
+  }
+
+  @media (max-width: 350px) {
+    padding: 0 2.5rem;
+  }
+}
