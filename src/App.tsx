@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import AlbumListScreen from './screens/AlbumListScreen';
-import NotFound from './screens/NotFound';
+import NotFound from './screens/NotFoundScreen';
 
 function App() {
   return (

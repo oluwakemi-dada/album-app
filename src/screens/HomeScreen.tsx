@@ -6,7 +6,7 @@ import styles from '../styles/HomeScreen.module.scss';
 const HomeScreen: FC = () => {
   return (
     <div className={styles.container}>
-      <Header homeScreen={true} />
+      <Header filter={false} />
       <div className={styles.center}>
         <Link to='/albums'>
           <button className={styles.button}>GET ALBUMS</button>

@@ -4,22 +4,22 @@ import Filter from './Filter';
 import styles from '../styles/Header.module.scss';
 
 interface HeaderProps {
-  homeScreen?: boolean;
+  filter?: boolean;
 }
 
-const Header: FC<HeaderProps> = ({ homeScreen }) => {
+const Header: FC<HeaderProps> = ({ filter }) => {
   return (
     <nav className={styles.container}>
       <Link to='/'>
-        <h1>innuos</h1>
+        <h1 className={styles.logo}>innuos</h1>
       </Link>
-      {!homeScreen && <Filter />}
+      {filter && <Filter />}
     </nav>
   );
 };
 
 Header.defaultProps = {
-  homeScreen: false,
+  filter: true,
 };
 
 export default Header;

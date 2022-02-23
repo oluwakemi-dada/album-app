@@ -5,6 +5,7 @@ import { listAlbums, filteredAlbums } from '../actions/albumActions';
 import { Album as AlbumType, ReduxState } from '../types';
 import Header from '../components/Header';
 import Album from '../components/Album';
+import Loader from '../components/Loader';
 import styles from '../styles/AlbumListScreen.module.scss';
 
 const AlbumListScreen: FC = () => {
@@ -27,7 +28,7 @@ const AlbumListScreen: FC = () => {
     <div>
       <Header />
       {loading ? (
-        <h2>Loading...</h2>
+        <Loader />
       ) : error ? (
         <h2>Error</h2>
       ) : (

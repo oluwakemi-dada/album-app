@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
 
 html {
   font-size: 62.5%;
@@ -40,7 +41,7 @@ button {
 
 h1 {
   font-weight: 500;
-  font-size: 2.8rem;
+  font-size: 3rem;
 
   @media (max-width: 700px) {
     font-size: 2.5rem;
