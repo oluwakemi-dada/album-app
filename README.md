@@ -1,6 +1,6 @@
 # Album App
 
-This is a simple app that displays Album lists from a json file. User is able to filter the albums that gets shown. 
+This is a simple app that displays Album lists from a json file. User is able to filter the albums that gets shown.
 
 ## Built With
 
@@ -12,13 +12,14 @@ This is a simple app that displays Album lists from a json file. User is able to
 ## Get Started
 
 In the project directory, run:
-`npm install`
+
+`npm install` or `yarn install`
 
 ## Start Application
 
 In the project directory, run:
 
-`npm run start`
+`npm run start` or `yarn start`
 
 This runs both the project in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
