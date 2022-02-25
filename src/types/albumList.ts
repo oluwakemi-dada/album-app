@@ -18,7 +18,7 @@ export interface GetAlbumsRequestAction {
 
 export interface GetAlbumsSuccessAction {
   type: AlbumListActionTypes.ALBUM_LIST_SUCCESS;
-  payload: { Albums: Album[] };
+  payload: Album[];
 }
 
 export interface GetAlbumsFailureAction {
