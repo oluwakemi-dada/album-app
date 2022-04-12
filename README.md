@@ -1,6 +1,6 @@
 # Album App
 
-TEST - This is a simple app that displays Album lists from a json file. User is able to filter the albums that gets shown.
+ASSESSMENT - This is a simple app that displays Album lists from a json file. User is able to filter the albums that gets shown.
 
 ## Built With
 
